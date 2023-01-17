@@ -1,0 +1,26 @@
+{% extends 'netflix/base.html' %}
+{%block content %}
+<!-- MAIN CONTAINER -->
+<section class="main-container">
+    <div class="location" id="home">
+        <h1></h1>
+        {% if obj %}
+        <h1>Search results for {{search_val}}:</h1>
+        {% for movie in obj %}
+        
+        <h1 id="home">{{movie.category}}</h1>
+        <div class="box">
+            <a href="/watch?movie_pk={{movie.pk}}"><img src="/media/{{movie.movie_thumbnail}}" alt="">
+                <span>{{movie.movie_name}}</span>
+            </a>>
+
+        
+        </div>
+        {% endfor %}
+        
+        {% else %}
+        <h2>Sorry,No results for {{search_val}} :(</h2>
+        {% endif%}
+    </div>
+</section>
+{%endblock%}
