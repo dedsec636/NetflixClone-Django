@@ -2,7 +2,7 @@
 Basic Netflix clone built using Django
 Frontend using Netflix Clone made by [Carlos Avila](https://codepen.io/cb2307/pen/XYxyeY)
 
-##Implemented features
+## Implemented features
 - User registration
 - User login
 - User logout
@@ -11,7 +11,7 @@ Frontend using Netflix Clone made by [Carlos Avila](https://codepen.io/cb2307/pe
 - Viewing movie functionality
 
 
-##Instructions to setup project
+## Instructions to setup project
 
 ### Setting up the project
 - `virtualenv venv` (creates a virtualenv named venv)
